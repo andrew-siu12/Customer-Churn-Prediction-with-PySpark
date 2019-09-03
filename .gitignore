@@ -1,10 +1,10 @@
  Don't track content of these folders\
-data\
-catboost_info/\
-.ipynb_checkpoints\
-.idea\
-_site\
-__pycache__\
+data/
+catboost_info/
+.ipynb_checkpoints/
+.idea/
+_site/
+__pycache__/
 \
 \
 # Packages #\
