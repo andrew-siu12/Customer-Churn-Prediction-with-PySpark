@@ -5,6 +5,7 @@ catboost_info/
 .idea/
 _site/
 __pycache__/
+images/
 \
 \
 # Packages #\
