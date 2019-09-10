@@ -44,8 +44,16 @@ There are two dataset made avaliable, a full dataset (12GB) and a tiny subset (2
 ```
 1. Sparkify.html: html file of the data analysis for customer churn prediction for Sparkify in small dataset
 2. Sparkify.ipynb: jupyter notebook of the analysis and modelling
-
+3.
 
 ## Summary
+
+In this project, i first cleaned the missing values of the data by removing rows with no userId, and assign None to missing values of artist, song and 0 to feature length. We then perform some analysis to find out the relationship of churn rate with different features. For feature engineering, we crafted 18 features based on the analysis and common sense. We selected 3 models for prediction, namely logistic regression, random forest and gradient boosting tree classifier. The result of hyperparameter tuning shows that random forest classifier have the best overall performance with less computational time and better score than the other two classifiers. Finally, we use the hyperparameter tuned in the small dataset to train on the full dataset. The result is summarized in following table:
+
+| Dataset      | accuracy | precision| recall | f1 score| 
+| -------------   |:--------:| --------:| ------:| -------:|
+| 240mb dataset | 0.89655|  0.89533|0.89655|0.88623|
+| Full 12Gb dataset | 0.84919|  0.85287|0.84919|0.8272| 
+
 
 
