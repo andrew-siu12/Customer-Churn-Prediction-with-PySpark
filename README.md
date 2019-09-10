@@ -41,10 +41,13 @@ There are two dataset made avaliable, a full dataset (12GB) and a tiny subset (2
 └─notebook
         Sparkify.html
         Sparkify.ipynb
+        SparkifyAWS.html
+        SparkifyAWS.ipynb
 ```
 1. Sparkify.html: html file of the data analysis for customer churn prediction for Sparkify in small dataset
 2. Sparkify.ipynb: jupyter notebook of the analysis and modelling
-3.
+3. SparkifyAWS.html:  html file of the data analysis and modeling of full dataset in AWS EMR cluster
+4. SparkifyAWS.ipynb: jupyter notebook of the data analysis and modeling of full dataset in AWS EMR cluster
 
 ## Summary
 
