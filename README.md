@@ -60,5 +60,5 @@ In this project, i first cleaned the missing values of the data by removing rows
 | 240mb dataset | 0.89655|  0.89533|0.89655|0.88623|
 | Full 12Gb dataset | 0.84919|  0.85287|0.84919|0.8272| 
 
-
+A summary post has been written on my own [blog] (https://andrew-siu12.github.io/2019-09-04-Customer-Churn-Prediction-with-PySpark/)
 
